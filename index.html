@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="output.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body
+    class="flex items-center justify-center transform transistion-transform duration-200 min-h-screen bg-gray-100 hover:bg-slate-300">
+    <div
+        class="bg-white  p-8 rounded-lg shadow-lg max-w-sm w-full transform transistion-transform duration-300  hover:bg-slate-200 hover:scale-105 hover:shadow-xl">
+        <h2
+            class="text-2xl font-bold mb-6 text-gray-900 text-center transform transition-transform duration-300 hover:text-gray-800">
+            Login
+        </h2>
+        <form id="signupForm">
+            <div class="mb-4">
+                <label
+                    class="block text-gray-700 text-sm font-bold mb-2 transform transition-transform duration-300 hover:text-gray-600"
+                    for="username">
+                    Username
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline transform transition-transform duration-300 hover:shadow-lg hover:border-gray-400"
+                    id="username" type="text" placeholder="Username">
+            </div>
+            <div class="mb-6">
+                <label
+                    class="block text-gray-700 text-sm font-bold mb-2 transform transition-transform duration-300 hover:text-gray-600"
+                    for="password">
+                    Password
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline transform transition-transform duration-300 hover:shadow-lg hover:border-gray-400"
+                    id="password" type="password" placeholder="********">
+            </div>
+            <div class="flex items-center justify-between">
+                <button
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+                    type="button" id="signupButton">
+                    Sign In
+                </button>
+            </div>
+        </form>
+        <div id="userList" class="mt-6"></div>
+    </div>
+</body>
+
+</html>

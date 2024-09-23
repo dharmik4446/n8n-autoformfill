@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-login-form",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.8"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "install": "^0.13.0",
+    "puppet-strings": "^5.0.3",
+    "puppeteer": "^23.4.0"
+  }
+}
